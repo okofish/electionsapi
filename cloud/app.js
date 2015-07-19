@@ -20,6 +20,8 @@ app.set('view engine', 'ejs'); // Set the template engine
 app.use(express.bodyParser()); // Middleware for reading request body
 
 app.get('/elections/:year/:election', function(req, res) {
+  Parse.Analytics.track('req', { path: req.path });
+  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election });
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
   query.equalTo("type", req.params.election);
@@ -49,6 +51,8 @@ app.get('/elections/:year/:election', function(req, res) {
 });
 
 app.get('/elections/:year/:election/data/popularvote', function(req, res) {
+  Parse.Analytics.track('req', { path: req.path });
+  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election, datatype: "popularvote" });
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
   query.equalTo("type", req.params.election);
@@ -70,6 +74,8 @@ app.get('/elections/:year/:election/data/popularvote', function(req, res) {
 });
 
 app.get('/elections/:year/:election/data/electoralstatevote', function(req, res) {
+  Parse.Analytics.track('req', { path: req.path });
+  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election, datatype: "electoralstatevote" });
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
   query.equalTo("type", req.params.election);
@@ -91,6 +97,7 @@ app.get('/elections/:year/:election/data/electoralstatevote', function(req, res)
 });
 
 app.get('/elections', function(req, res) {
+  Parse.Analytics.track('req', { path: req.path });
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
   query.find({
@@ -115,6 +122,7 @@ app.get('/elections', function(req, res) {
 })
 
 app.get('/', function(req, res) {
+  Parse.Analytics.track('req', { path: req.path });
   res.type('json');
   res.send({
     "elections_url": "/elections",
@@ -123,6 +131,7 @@ app.get('/', function(req, res) {
 })
 
 app.use(function(req, res) {
+  Parse.Analytics.track('error', { type: '404', path: req.path });
   res.send({
     "error": {
       "code": 404,
