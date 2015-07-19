@@ -43,7 +43,7 @@ An Election object has the following attributes:
     + year: 2012 (required, string) - Year of the election. Must be one of [2004,2006,2008,2010,2012]. If election type is presidential, must be a presidential federal election year.
     + election: presidential (required, string) - Type of election. Must be one of [presidential,senate,house].
 
-### View an Election Detail [GET]
+### View an Election [GET]
 
 + Response 200 (application/json)
 
@@ -58,8 +58,14 @@ An Election object has the following attributes:
 ## Election data [/elections/{year}/{type}/data/{data_type}]
 
 + Parameters
-    + year: 2012 (required, number) - ID of the Question in form of an integer
+    + year: 2012 (required, year) - ID of the Question in form of an integer
     + type: presidential (required)
-    + data_type: popularvote (required) - For presidential elections, one of [popularvote,electoralstateVote]
+        + Members
+            + `presidential`
+            + `congressional`
+    + data_type: popularvote (required enum[string]) - For presidential elections, one of [popularvote,electoralstateVote]
+        + Members
+            + `popularvote`
+            + `electoralstatevote`
 
-### Get popular vote information [GET]
+### Get popular vote information [GET /elections/2012/presidential/data/popularvote]
