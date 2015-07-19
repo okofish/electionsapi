@@ -9,6 +9,10 @@ Elections is a simple and free API allowing easy access to information on US pre
 
 # Elections API Root [/]
 
++ Headers
+
+        content-type: application/json; charset=utf-8
+
 ## Retrieve the Entry Point [GET]
 
 + Response 200 (application/json)
@@ -83,6 +87,9 @@ An Election object has the following attributes:
             + `popularvote` - Array consisting of vote information on each candidate.
             + `electoralstatevote` - Array consisting of per-state electoral vote information on the top two candidates.
             
++ Headers
+
+        content-type: application/json; charset=utf-8
 
 + Response 200 (application/json)
 
