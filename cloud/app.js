@@ -19,8 +19,6 @@ app.set('views', 'cloud/views'); // Specify the folder to find templates
 app.set('view engine', 'ejs'); // Set the template engine
 app.use(express.bodyParser()); // Middleware for reading request body
 
-// This is an example of hooking up a request handler with a specific request
-// path and HTTP verb using the Express routing API.
 app.get('/elections/:year/:election', function(req, res) {
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
@@ -34,6 +32,7 @@ app.get('/elections/:year/:election', function(req, res) {
           dataTypes.push(dtype.toLowerCase())
         }
       })
+      res.type('json');
       res.send({
         "year": results[0].get("year"),
         "type": results[0].get("type"),
@@ -56,6 +55,7 @@ app.get('/elections/:year/:election/data/popularvote', function(req, res) {
   query.equalTo("year", req.params.year);
   query.find({
     success: function(results) {
+      res.type('json');
       res.send({
         "year": results[0].get("year"),
         "type": results[0].get("type"),
@@ -76,6 +76,7 @@ app.get('/elections/:year/:election/data/electoralstatevote', function(req, res)
   query.equalTo("year", req.params.year);
   query.find({
     success: function(results) {
+      res.type('json');
       res.send({
         "year": results[0].get("year"),
         "type": results[0].get("type"),
@@ -101,6 +102,7 @@ app.get('/elections', function(req, res) {
           "type": results[election].get("type")
         })
       }
+      res.type('json');
       res.send({
         "elections": electionslist,
         "url": req.path
@@ -113,6 +115,7 @@ app.get('/elections', function(req, res) {
 })
 
 app.get('/', function(req, res) {
+  res.type('json');
   res.send({
     "elections_url": "/elections"
   })
@@ -120,9 +123,9 @@ app.get('/', function(req, res) {
 
 app.use(function(req, res) {
   res.send({
-    error: {
-      code: 404,
-      message: 'Endpoint not found.'
+    "error": {
+      "code": 404,
+      "message": 'Endpoint not found.'
     }
   });
 });
