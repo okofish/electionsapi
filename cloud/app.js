@@ -117,7 +117,8 @@ app.get('/elections', function(req, res) {
 app.get('/', function(req, res) {
   res.type('json');
   res.send({
-    "elections_url": "/elections"
+    "elections_url": "/elections",
+    "docs": "http://docs.electionsapi.apiary.io/"
   })
 })
 
