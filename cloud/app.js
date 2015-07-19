@@ -28,7 +28,50 @@ app.get('/elections/:year/:election', function(req, res) {
   query.equalTo("year", req.params.year);
   query.find({
     success: function(results) {
-      res.send(dropMetaKeys(results[0]))
+      res.send({
+        "year": results[0].get("year"),
+        "type": results[0].get("type"),
+        "totalVotes": results[0].get("totalVotes"),
+        "votingAge": results[0].get("votingAge")
+      })
+    },
+    error: function(error) {
+      console.error("Error: " + error.code + " " + error.message);
+    }
+  });
+});
+
+app.get('/elections/:year/:election/data/popularvote', function(req, res) {
+  var Election = Parse.Object.extend("Election");
+  var query = new Parse.Query(Election);
+  query.equalTo("type", req.params.election);
+  query.equalTo("year", req.params.year);
+  query.find({
+    success: function(results) {
+      res.send({
+        "year": results[0].get("year"),
+        "type": results[0].get("type"),
+        "popularVote": results[0].get("popularVote")
+      })
+    },
+    error: function(error) {
+      console.error("Error: " + error.code + " " + error.message);
+    }
+  });
+});
+
+app.get('/elections/:year/:election/data/electoralstatevote', function(req, res) {
+  var Election = Parse.Object.extend("Election");
+  var query = new Parse.Query(Election);
+  query.equalTo("type", req.params.election);
+  query.equalTo("year", req.params.year);
+  query.find({
+    success: function(results) {
+      res.send({
+        "year": results[0].get("year"),
+        "type": results[0].get("type"),
+        "electoralStateVote": results[0].get("electoralStateVote")
+      })
     },
     error: function(error) {
       console.error("Error: " + error.code + " " + error.message);
