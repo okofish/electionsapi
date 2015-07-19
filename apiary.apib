@@ -27,21 +27,29 @@ to keep your client decoupled from implementation details.
 
 Resources related to elections in the API.
 
-## Election [/elections/{year}/{election}]
+## Election [/elections/{year}/{type}]
 
 An Election object has the following attributes:
 
 + year
 + type
 + totalVotes - Total number of votes cast in election.
-+ votingAge - U.S. Census Bureau voting vge population.
-+ popularVote - Array consisting of vote information on each candidate.
-+ electoralStateVote - Array consisting of per-state electoral vote information on the top two candidates.
++ votingAge - U.S. Census Bureau voting age population.
++ dataTypes - Valid data types for this election.
 + url
 
 + Parameters
-    + year: 2012 (required, string) - Year of the election. Must be one of [2004,2006,2008,2010,2012]. If election type is presidential, must be a presidential federal election year.
-    + election: presidential (required, string) - Type of election. Must be one of [presidential,senate,house].
+    + year: 2012 (required, string) - Year of the election. If election type is presidential, must be a presidential federal election year.
+        + Members
+            + `2004`
+            + `2006`
+            + `2008`
+            + `2010`
+            + `2012`
+    + type: presidential (required, string) - Type of election.
+        + Members
+            + `presidential`
+            + `congressional`
 
 ### View an Election [GET]
 
@@ -57,15 +65,26 @@ An Election object has the following attributes:
 
 ## Election data [/elections/{year}/{type}/data/{data_type}]
 
+### Get popular vote information [GET]
++ year
++ type
++ popularVote - Array consisting of vote information on each candidate.
++ electoralStateVote - Array consisting of per-state electoral vote information on the top two candidates.
++ url
+
 + Parameters
-    + year: 2012 (required, year) - ID of the Question in form of an integer
-    + type: presidential (required)
+    + year: 2012 (required, year) - Year of election. If election type is presidential, must be a presidential federal election year.
+        + Members
+            + `2004`
+            + `2006`
+            + `2008`
+            + `2010`
+            + `2012`
+    + type: presidential (required) - Type of election.
         + Members
             + `presidential`
             + `congressional`
-    + data_type: popularvote (required enum[string]) - For presidential elections, one of [popularvote,electoralstateVote]
+    + data_type: popularvote (required) - For presidential elections, one of [popularvote,electoralstateVote]
         + Members
             + `popularvote`
             + `electoralstatevote`
-
-### Get popular vote information [GET]
