@@ -68,8 +68,6 @@ An Election object has the following attributes:
 ### Get popular vote information [GET]
 + year
 + type
-+ popularVote - Array consisting of vote information on each candidate.
-+ electoralStateVote - Array consisting of per-state electoral vote information on the top two candidates.
 + url
 
 + Parameters
@@ -84,7 +82,7 @@ An Election object has the following attributes:
         + Members
             + `presidential`
             + `congressional`
-    + data_type: popularvote (required) - For presidential elections, one of [popularvote,electoralstateVote]
+    + data_type: popularvote (required)
         + Members
-            + `popularvote`
-            + `electoralstatevote`
+            + `popularvote` - Array consisting of vote information on each candidate.
+            + `electoralstatevote` - Array consisting of per-state electoral vote information on the top two candidates.
