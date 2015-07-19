@@ -1,0 +1,1335 @@
+{ "results": [
+	{
+        "createdAt": "2015-07-19T00:32:11.398Z",
+        "objectId": "37s2ekLEvF",
+        "type": "congressional",
+        "updatedAt": "2015-07-19T00:32:14.591Z",
+        "year": "2012"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:04.894Z",
+        "objectId": "KEf3kqaEz3",
+        "type": "congressional",
+        "updatedAt": "2015-07-19T01:07:32.409Z",
+        "year": "2010"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:08.420Z",
+        "objectId": "FglDZ4y0VM",
+        "type": "congressional",
+        "updatedAt": "2015-07-19T01:07:33.406Z",
+        "year": "2008"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:11.836Z",
+        "objectId": "mTiHrdSViS",
+        "type": "congressional",
+        "updatedAt": "2015-07-19T01:07:37.728Z",
+        "year": "2006"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:19.251Z",
+        "objectId": "9N4bEWra0T",
+        "type": "congressional",
+        "updatedAt": "2015-07-19T01:07:39.215Z",
+        "year": "2004"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:18.380Z",
+        "objectId": "UcuNrN2SjS",
+        "popularVote": [
+            {
+                "candidate": "George W. Bush",
+                "parties": [
+                    "Republican"
+                ],
+                "voteTotal": 62040610
+            },
+            {
+                "candidate": "John F. Kerry",
+                "parties": [
+                    "Democrat"
+                ],
+                "voteTotal": 59028444
+            },
+            {
+                "candidate": "Ralph Nader",
+                "parties": [
+                    "Reform",
+                    "Populist",
+                    "Independent"
+                ],
+                "voteTotal": 465650
+            },
+            {
+                "candidate": "Michael Badnarik",
+                "parties": [
+                    "Libertarian"
+                ],
+                "voteTotal": 397265
+            },
+            {
+                "candidate": "Michael Anthony Peroutka",
+                "parties": [
+                    "Constitution"
+                ],
+                "voteTotal": 143630
+            },
+            {
+                "candidate": "David Cobb",
+                "parties": [
+                    "Green"
+                ],
+                "voteTotal": 119859
+            },
+            {
+                "candidate": "Write-In",
+                "parties": [
+                    "Miscellaneous"
+                ],
+                "voteTotal": 37240
+            },
+            {
+                "candidate": "Leonard Peltier",
+                "parties": [
+                    "Peace and Freedom"
+                ],
+                "voteTotal": 27607
+            },
+            {
+                "candidate": "Walter F. Brown",
+                "parties": [
+                    "Socialist",
+                    "Natural Law"
+                ],
+                "voteTotal": 10837
+            },
+            {
+                "candidate": "James Harris",
+                "parties": [
+                    "Socialist Workers"
+                ],
+                "voteTotal": 7102
+            },
+            {
+                "candidate": "Ro'ger Calero",
+                "parties": [
+                    "Socialist Workers"
+                ],
+                "voteTotal": 3689
+            },
+            {
+                "candidate": "None of These Candidates",
+                "parties": [
+                    "Nevada"
+                ],
+                "voteTotal": 3688
+            },
+            {
+                "candidate": "Thomas J. Harens",
+                "parties": [
+                    "Christian Freedom"
+                ],
+                "voteTotal": 2387
+            },
+            {
+                "candidate": "Gene Amondson",
+                "parties": [
+                    "Concerns of People",
+                    "Prohibition"
+                ],
+                "voteTotal": 1944
+            },
+            {
+                "candidate": "Bill Van Auken",
+                "parties": [
+                    "Socialist Equality"
+                ],
+                "voteTotal": 1857
+            },
+            {
+                "candidate": "John Parker",
+                "parties": [
+                    "Workers World",
+                    "Liberty Union"
+                ],
+                "voteTotal": 1646
+            },
+            {
+                "candidate": "Charles Jay",
+                "parties": [
+                    "Personal Choice"
+                ],
+                "voteTotal": 946
+            },
+            {
+                "candidate": "Stanford E. (Andy) Andress",
+                "parties": [
+                    "Unaffiliated"
+                ],
+                "voteTotal": 804
+            },
+            {
+                "candidate": "Earl F. Dodge",
+                "parties": [
+                    "Prohibition"
+                ],
+                "voteTotal": 140
+            }
+        ],
+        "totalVotes": 122295345,
+        "type": "presidential",
+        "updatedAt": "2015-07-19T02:05:53.745Z",
+        "votingAge": 215694000,
+        "year": "2004"
+    },
+	{
+        "createdAt": "2015-07-19T01:07:06.661Z",
+        "electoralStateVote": [
+            {
+                "state": "AL",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 9
+                }
+            },
+            {
+                "state": "AK",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 3
+                }
+            },
+            {
+                "state": "AZ",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 10
+                }
+            },
+            {
+                "state": "AR",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 6
+                }
+            },
+            {
+                "state": "CA",
+                "votes": {
+                    "Barack Obama": 55,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "CO",
+                "votes": {
+                    "Barack Obama": 9,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "CT",
+                "votes": {
+                    "Barack Obama": 7,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "DE",
+                "votes": {
+                    "Barack Obama": 3,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "DC",
+                "votes": {
+                    "Barack Obama": 3,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "FL",
+                "votes": {
+                    "Barack Obama": 27,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "GA",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 15
+                }
+            },
+            {
+                "state": "HI",
+                "votes": {
+                    "Barack Obama": 4,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "ID",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 4
+                }
+            },
+            {
+                "state": "IL",
+                "votes": {
+                    "Barack Obama": 21,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "IN",
+                "votes": {
+                    "Barack Obama": 11,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "IA",
+                "votes": {
+                    "Barack Obama": 7,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "KS",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 6
+                }
+            },
+            {
+                "state": "KY",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 8
+                }
+            },
+            {
+                "state": "LA",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 9
+                }
+            },
+            {
+                "state": "ME",
+                "votes": {
+                    "Barack Obama": 4,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "MD",
+                "votes": {
+                    "Barack Obama": 10,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "MA",
+                "votes": {
+                    "Barack Obama": 12,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "MI",
+                "votes": {
+                    "Barack Obama": 17,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "MN",
+                "votes": {
+                    "Barack Obama": 10,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "MS",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 6
+                }
+            },
+            {
+                "state": "MO",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 11
+                }
+            },
+            {
+                "state": "MT",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 3
+                }
+            },
+            {
+                "state": "NE",
+                "votes": {
+                    "Barack Obama": 1,
+                    "John McCain": 4
+                }
+            },
+            {
+                "state": "NV",
+                "votes": {
+                    "Barack Obama": 5,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "NH",
+                "votes": {
+                    "Barack Obama": 4,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "NJ",
+                "votes": {
+                    "Barack Obama": 15,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "NM",
+                "votes": {
+                    "Barack Obama": 5,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "NY",
+                "votes": {
+                    "Barack Obama": 31,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "NC",
+                "votes": {
+                    "Barack Obama": 15,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "ND",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 3
+                }
+            },
+            {
+                "state": "OH",
+                "votes": {
+                    "Barack Obama": 20,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "OK",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 7
+                }
+            },
+            {
+                "state": "OR",
+                "votes": {
+                    "Barack Obama": 7,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "PA",
+                "votes": {
+                    "Barack Obama": 21,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "RI",
+                "votes": {
+                    "Barack Obama": 4,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "SC",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 8
+                }
+            },
+            {
+                "state": "SD",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 3
+                }
+            },
+            {
+                "state": "TN",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 11
+                }
+            },
+            {
+                "state": "TX",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 34
+                }
+            },
+            {
+                "state": "UT",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 5
+                }
+            },
+            {
+                "state": "VT",
+                "votes": {
+                    "Barack Obama": 3,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "VA",
+                "votes": {
+                    "Barack Obama": 13,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "WA",
+                "votes": {
+                    "Barack Obama": 11,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "WV",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 5
+                }
+            },
+            {
+                "state": "WI",
+                "votes": {
+                    "Barack Obama": 10,
+                    "John McCain": 0
+                }
+            },
+            {
+                "state": "WY",
+                "votes": {
+                    "Barack Obama": 0,
+                    "John McCain": 3
+                }
+            }
+        ],
+        "objectId": "E49GUR1ZkL",
+        "popularVote": [
+            {
+                "candidate": "Barack Obama",
+                "parties": [
+                    "Democrat"
+                ],
+                "voteTotal": 69498516
+            },
+            {
+                "candidate": "John McCain",
+                "parties": [
+                    "Republican"
+                ],
+                "voteTotal": 59948323
+            },
+            {
+                "candidate": "Ralph Nader",
+                "parties": [
+                    "Independent",
+                    "Peace and Freedom"
+                ],
+                "voteTotal": 739034
+            },
+            {
+                "candidate": "Bob Barr",
+                "parties": [
+                    "Libertarian"
+                ],
+                "voteTotal": 523715
+            },
+            {
+                "candidate": "Chuck Baldwin",
+                "parties": [
+                    "Constitution/Reform/U.S. Taxpayers"
+                ],
+                "voteTotal": 199750
+            },
+            {
+                "candidate": "Cynthia McKinney",
+                "parties": [
+                    "Green",
+                    "Independent",
+                    "Mountain"
+                ],
+                "voteTotal": 161797
+            },
+            {
+                "candidate": "Write-In",
+                "parties": [
+                    "Miscellaneous"
+                ],
+                "voteTotal": 112597
+            },
+            {
+                "candidate": "Alan Keyes",
+                "parties": [
+                    "America's Independent"
+                ],
+                "voteTotal": 47746
+            },
+            {
+                "candidate": "Ron Paul",
+                "parties": [
+                    "Constitution",
+                    "Louisiana Taxpayers"
+                ],
+                "voteTotal": 42426
+            },
+            {
+                "candidate": "Gloria La Riva",
+                "parties": [
+                    "Socialism and Liberation"
+                ],
+                "voteTotal": 6818
+            },
+            {
+                "candidate": "Brian Moore",
+                "parties": [
+                    "Liberty Union",
+                    "Socialist"
+                ],
+                "voteTotal": 6538
+            },
+            {
+                "candidate": "None of These Candidates",
+                "parties": [
+                    "Nevada"
+                ],
+                "voteTotal": 6267
+            },
+            {
+                "candidate": "Ro'ger Calero",
+                "parties": [
+                    "Socialist Workers"
+                ],
+                "voteTotal": 5151
+            },
+            {
+                "candidate": "Richard Duncan",
+                "parties": [
+                    "Independent"
+                ],
+                "voteTotal": 3905
+            },
+            {
+                "candidate": "James Harris",
+                "parties": [
+                    "Socialist Workers"
+                ],
+                "voteTotal": 2424
+            },
+            {
+                "candidate": "Charles Jay",
+                "parties": [
+                    "Boston Tea Party/Independent"
+                ],
+                "voteTotal": 2422
+            },
+            {
+                "candidate": "John Joseph Polachek",
+                "parties": [
+                    "New"
+                ],
+                "voteTotal": 1149
+            },
+            {
+                "candidate": "Frank Edward McEnulty",
+                "parties": [
+                    "Unaffiliated"
+                ],
+                "voteTotal": 829
+            },
+            {
+                "candidate": "Jeffrey J. Wamboldt",
+                "parties": [
+                    "Independent"
+                ],
+                "voteTotal": 764
+            },
+            {
+                "candidate": "Thomas Robert Stevens",
+                "parties": [
+                    "Objectivist"
+                ],
+                "voteTotal": 755
+            },
+            {
+                "candidate": "Gene C. Amondson",
+                "parties": [
+                    "Prohibition"
+                ],
+                "voteTotal": 653
+            },
+            {
+                "candidate": "Jeffrey \"Jeff\" Boss",
+                "parties": [
+                    "Vote Here"
+                ],
+                "voteTotal": 639
+            },
+            {
+                "candidate": "George Phillies",
+                "parties": [
+                    "Libertarian"
+                ],
+                "voteTotal": 531
+            },
+            {
+                "candidate": "Ted Weill",
+                "parties": [
+                    "Reform"
+                ],
+                "voteTotal": 481
+            },
+            {
+                "candidate": "Jonathan E. Allen",
+                "parties": [
+                    "Heartquake '08"
+                ],
+                "voteTotal": 480
+            },
+            {
+                "candidate": "Bradford Lyttle",
+                "parties": [
+                    "U.S. Pacifist"
+                ],
+                "voteTotal": 110
+            }
+        ],
+        "totalVotes": 131313820,
+        "type": "presidential",
+        "updatedAt": "2015-07-19T03:25:33.906Z",
+        "votingAge": 225499000,
+        "year": "2008"
+    },
+	{
+        "createdAt": "2015-07-19T00:32:02.506Z",
+        "electoralStateVote": [
+            {
+                "state": "AL",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 9
+                }
+            },
+            {
+                "state": "AK",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 3
+                }
+            },
+            {
+                "state": "AZ",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 11
+                }
+            },
+            {
+                "state": "AR",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 6
+                }
+            },
+            {
+                "state": "CA",
+                "votes": {
+                    "Barack Obama": 55,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "CO",
+                "votes": {
+                    "Barack Obama": 9,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "CT",
+                "votes": {
+                    "Barack Obama": 7,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "DE",
+                "votes": {
+                    "Barack Obama": 3,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "DC",
+                "votes": {
+                    "Barack Obama": 3,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "FL",
+                "votes": {
+                    "Barack Obama": 29,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "GA",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 16
+                }
+            },
+            {
+                "state": "HI",
+                "votes": {
+                    "Barack Obama": 4,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "ID",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 4
+                }
+            },
+            {
+                "state": "IL",
+                "votes": {
+                    "Barack Obama": 20,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "IN",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 11
+                }
+            },
+            {
+                "state": "IA",
+                "votes": {
+                    "Barack Obama": 6,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "KS",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 6
+                }
+            },
+            {
+                "state": "KY",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 8
+                }
+            },
+            {
+                "state": "LA",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 8
+                }
+            },
+            {
+                "state": "ME",
+                "votes": {
+                    "Barack Obama": 4,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "MD",
+                "votes": {
+                    "Barack Obama": 10,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "MA",
+                "votes": {
+                    "Barack Obama": 11,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "MI",
+                "votes": {
+                    "Barack Obama": 16,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "MN",
+                "votes": {
+                    "Barack Obama": 10,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "MS",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 6
+                }
+            },
+            {
+                "state": "MO",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 10
+                }
+            },
+            {
+                "state": "MT",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 3
+                }
+            },
+            {
+                "state": "NE",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 5
+                }
+            },
+            {
+                "state": "NV",
+                "votes": {
+                    "Barack Obama": 6,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "NH",
+                "votes": {
+                    "Barack Obama": 4,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "NJ",
+                "votes": {
+                    "Barack Obama": 14,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "NM",
+                "votes": {
+                    "Barack Obama": 5,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "NY",
+                "votes": {
+                    "Barack Obama": 29,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "NC",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 15
+                }
+            },
+            {
+                "state": "ND",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 3
+                }
+            },
+            {
+                "state": "OH",
+                "votes": {
+                    "Barack Obama": 18,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "OK",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 7
+                }
+            },
+            {
+                "state": "OR",
+                "votes": {
+                    "Barack Obama": 7,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "PA",
+                "votes": {
+                    "Barack Obama": 20,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "RI",
+                "votes": {
+                    "Barack Obama": 4,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "SC",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 9
+                }
+            },
+            {
+                "state": "SD",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 3
+                }
+            },
+            {
+                "state": "TN",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 11
+                }
+            },
+            {
+                "state": "TX",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 38
+                }
+            },
+            {
+                "state": "UT",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 6
+                }
+            },
+            {
+                "state": "VT",
+                "votes": {
+                    "Barack Obama": 3,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "VA",
+                "votes": {
+                    "Barack Obama": 13,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "WA",
+                "votes": {
+                    "Barack Obama": 12,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "WV",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 5
+                }
+            },
+            {
+                "state": "WI",
+                "votes": {
+                    "Barack Obama": 10,
+                    "Mitt Romney": 0
+                }
+            },
+            {
+                "state": "WY",
+                "votes": {
+                    "Barack Obama": 0,
+                    "Mitt Romney": 3
+                }
+            }
+        ],
+        "objectId": "60jCsABoyp",
+        "popularVote": [
+            {
+                "candidate": "Barack Obama",
+                "parties": [
+                    "Democrat"
+                ],
+                "voteTotal": 65915796
+            },
+            {
+                "candidate": "Mitt Romney",
+                "parties": [
+                    "Republican"
+                ],
+                "voteTotal": 60933500
+            },
+            {
+                "candidate": "Gary Johnson",
+                "parties": [
+                    "Libertarian",
+                    "Independent"
+                ],
+                "voteTotal": 1275971
+            },
+            {
+                "candidate": "Jill Stein",
+                "parties": [
+                    "Green",
+                    "Pacific Green",
+                    "Mountain",
+                    "Independent"
+                ],
+                "voteTotal": 469628
+            },
+            {
+                "candidate": "Write-In",
+                "parties": [
+                    "Miscellaneous"
+                ],
+                "voteTotal": 136040
+            },
+            {
+                "candidate": "Virgil Goode",
+                "parties": [
+                    "Constitution",
+                    "Independent American",
+                    "U.S. Taxpayers"
+                ],
+                "voteTotal": 122388
+            },
+            {
+                "candidate": "Roseann Barr",
+                "parties": [
+                    "Peace and Freedom"
+                ],
+                "voteTotal": 67326
+            },
+            {
+                "candidate": "Ross C. \"Rocky\" Anderson",
+                "parties": [
+                    "Justice",
+                    "Progressive",
+                    "Independent"
+                ],
+                "voteTotal": 43018
+            },
+            {
+                "candidate": "Tom Hoefling",
+                "parties": [
+                    "American Independent",
+                    "America's Party"
+                ],
+                "voteTotal": 40628
+            },
+            {
+                "candidate": "Randall Terry",
+                "parties": [
+                    "Independent"
+                ],
+                "voteTotal": 13105
+            },
+            {
+                "candidate": "Richard Duncan",
+                "parties": [
+                    "Independent"
+                ],
+                "voteTotal": 12557
+            },
+            {
+                "candidate": "Peta Lindsay",
+                "parties": [
+                    "Socialism and Liberation"
+                ],
+                "voteTotal": 7791
+            },
+            {
+                "candidate": "None of These Candidates",
+                "parties": [
+                    "Nevada"
+                ],
+                "voteTotal": 5770
+            },
+            {
+                "candidate": "Chuck Baldwin",
+                "parties": [
+                    "Reform"
+                ],
+                "voteTotal": 5017
+            },
+            {
+                "candidate": "Will Christensen",
+                "parties": [
+                    "Constitution"
+                ],
+                "voteTotal": 4453
+            },
+            {
+                "candidate": "Stewart Alexander",
+                "parties": [
+                    "Socialist"
+                ],
+                "voteTotal": 4405
+            },
+            {
+                "candidate": "James Harris",
+                "parties": [
+                    "Socialist Workers"
+                ],
+                "voteTotal": 4117
+            },
+            {
+                "candidate": "Thomas Robert Stevens",
+                "parties": [
+                    "Objectivist"
+                ],
+                "voteTotal": 4091
+            },
+            {
+                "candidate": "Jim Carlson",
+                "parties": [
+                    "Grassroots"
+                ],
+                "voteTotal": 3149
+            },
+            {
+                "candidate": "Jill Reed",
+                "parties": [
+                    "Unaffiliated"
+                ],
+                "voteTotal": 2875
+            },
+            {
+                "candidate": "Merlin Miller",
+                "parties": [
+                    "American Third Position",
+                    "Independent"
+                ],
+                "voteTotal": 2701
+            },
+            {
+                "candidate": "Sheila \"Samm\" Tittle",
+                "parties": [
+                    "We the People)"
+                ],
+                "voteTotal": 2572
+            },
+            {
+                "candidate": "Gloria La Riva",
+                "parties": [
+                    "Socialism and Liberation",
+                    "Independent"
+                ],
+                "voteTotal": 1608
+            },
+            {
+                "candidate": "Jerry White",
+                "parties": [
+                    "Socialist Equality",
+                    "Independent"
+                ],
+                "voteTotal": 1279
+            },
+            {
+                "candidate": "Dean Morstad",
+                "parties": [
+                    "Constitutional Government"
+                ],
+                "voteTotal": 1094
+            },
+            {
+                "candidate": "Jerry Litzel",
+                "parties": [
+                    "Independent"
+                ],
+                "voteTotal": 1027
+            },
+            {
+                "candidate": "Barbara Dale Washer",
+                "parties": [
+                    "Reform"
+                ],
+                "voteTotal": 1016
+            },
+            {
+                "candidate": "Jeff Boss",
+                "parties": [
+                    "NSA Did 911"
+                ],
+                "voteTotal": 1007
+            },
+            {
+                "candidate": "Andre Barnett",
+                "parties": [
+                    "Reform"
+                ],
+                "voteTotal": 956
+            },
+            {
+                "candidate": "Jack Fellure",
+                "parties": [
+                    "Prohibition"
+                ],
+                "voteTotal": 518
+            }
+        ],
+        "totalVotes": 129085403,
+        "type": "presidential",
+        "updatedAt": "2015-07-19T03:25:59.348Z",
+        "votingAge": 235248000,
+        "year": "2012"
+    }
+] }
