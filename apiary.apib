@@ -1,0 +1,392 @@
+FORMAT: 1A
+HOST: http://elections.parseapp.com/
+
+# Elections
+
+Elections is a simple and free API allowing easy access to information on US presidential and congressional elections.
+
+# Polls API Root [/]
+
+This resource does not have any attributes. Instead it offers the initial
+API affordances in the form of the links in the JSON body.
+
+It is recommend to follow the “url” link values,
+[Link](https://tools.ietf.org/html/rfc5988) or Location headers where
+applicable to retrieve resources. Instead of constructing your own URLs,
+to keep your client decoupled from implementation details.
+
+## Retrieve the Entry Point [GET]
+
++ Response 200 (application/json)
+
+        {
+            "elections_url": "/elections"
+        }
+
+## Group Election
+
+Resources related to elections in the API.
+
+## Election [/elections/{year}/{election}]
+
+An Election object has the following attributes:
+
++ year
++ type
++ totalVotes - Total number of votes cast in election.
++ votingAge - U.S. Census Bureau voting vge population.
++ popularVote - Array consisting of vote information on each candidate.
++ url
+
++ Parameters
+    + year: 2012 (required, string) - Year of the election. Must be one of [2004,2006,2008,2010,2012]. If election type is presidential, must be a presidential federal election year.
+    + election: presidential (required, string) - Type of election. Must be one of [presidential,senate,house].
+
+### View an Election Detail [GET]
+
++ Response 200 (application/json)
+
+        {
+            "objectId": "60jCsABoyp",
+            "popularVote": [
+                {
+                    "candidate": "Barack Obama",
+                    "parties": [
+                        "Democrat"
+                    ],
+                    "voteTotal": 65915796
+                },
+                {
+                    "candidate": "Mitt Romney",
+                    "parties": [
+                        "Republican"
+                    ],
+                    "voteTotal": 60933500
+                },
+                {
+                    "candidate": "Gary Johnson",
+                    "parties": [
+                        "Libertarian",
+                        "Independent"
+                    ],
+                    "voteTotal": 1275971
+                },
+                {
+                    "candidate": "Jill Stein",
+                    "parties": [
+                        "Green",
+                        "Pacific Green",
+                        "Mountain",
+                        "Independent"
+                    ],
+                    "voteTotal": 469628
+                },
+                {
+                    "candidate": "Write-In",
+                    "parties": [
+                        "Miscellaneous"
+                    ],
+                    "voteTotal": 136040
+                },
+                {
+                    "candidate": "Virgil Goode",
+                    "parties": [
+                        "Constitution",
+                        "Independent American",
+                        "U.S. Taxpayers"
+                    ],
+                    "voteTotal": 122388
+                },
+                {
+                    "candidate": "Roseann Barr",
+                    "parties": [
+                        "Peace and Freedom"
+                    ],
+                    "voteTotal": 67326
+                },
+                {
+                    "candidate": "Ross C. \"Rocky\" Anderson",
+                    "parties": [
+                        "Justice",
+                        "Progressive",
+                        "Independent"
+                    ],
+                    "voteTotal": 43018
+                },
+                {
+                    "candidate": "Tom Hoefling",
+                    "parties": [
+                        "American Independent",
+                        "America's Party"
+                    ],
+                    "voteTotal": 40628
+                },
+                {
+                    "candidate": "Randall Terry",
+                    "parties": [
+                        "Independent"
+                    ],
+                    "voteTotal": 13105
+                },
+                {
+                    "candidate": "Richard Duncan",
+                    "parties": [
+                        "Independent"
+                    ],
+                    "voteTotal": 12557
+                },
+                {
+                    "candidate": "Peta Lindsay",
+                    "parties": [
+                        "Socialism and Liberation"
+                    ],
+                    "voteTotal": 7791
+                },
+                {
+                    "candidate": "None of These Candidates",
+                    "parties": [
+                        "Nevada"
+                    ],
+                    "voteTotal": 5770
+                },
+                {
+                    "candidate": "Chuck Baldwin",
+                    "parties": [
+                        "Reform"
+                    ],
+                    "voteTotal": 5017
+                },
+                {
+                    "candidate": "Will Christensen",
+                    "parties": [
+                        "Constitution"
+                    ],
+                    "voteTotal": 4453
+                },
+                {
+                    "candidate": "Stewart Alexander",
+                    "parties": [
+                        "Socialist"
+                    ],
+                    "voteTotal": 4405
+                },
+                {
+                    "candidate": "James Harris",
+                    "parties": [
+                        "Socialist Workers"
+                    ],
+                    "voteTotal": 4117
+                },
+                {
+                    "candidate": "Thomas Robert Stevens",
+                    "parties": [
+                        "Objectivist"
+                    ],
+                    "voteTotal": 4091
+                },
+                {
+                    "candidate": "Jim Carlson",
+                    "parties": [
+                        "Grassroots"
+                    ],
+                    "voteTotal": 3149
+                },
+                {
+                    "candidate": "Jill Reed",
+                    "parties": [
+                        "Unaffiliated"
+                    ],
+                    "voteTotal": 2875
+                },
+                {
+                    "candidate": "Merlin Miller",
+                    "parties": [
+                        "American Third Position",
+                        "Independent"
+                    ],
+                    "voteTotal": 2701
+                },
+                {
+                    "candidate": "Sheila \"Samm\" Tittle",
+                    "parties": [
+                        "We the People)"
+                    ],
+                    "voteTotal": 2572
+                },
+                {
+                    "candidate": "Gloria La Riva",
+                    "parties": [
+                        "Socialism and Liberation",
+                        "Independent"
+                    ],
+                    "voteTotal": 1608
+                },
+                {
+                    "candidate": "Jerry White",
+                    "parties": [
+                        "Socialist Equality",
+                        "Independent"
+                    ],
+                    "voteTotal": 1279
+                },
+                {
+                    "candidate": "Dean Morstad",
+                    "parties": [
+                        "Constitutional Government"
+                    ],
+                    "voteTotal": 1094
+                },
+                {
+                    "candidate": "Jerry Litzel",
+                    "parties": [
+                        "Independent"
+                    ],
+                    "voteTotal": 1027
+                },
+                {
+                    "candidate": "Barbara Dale Washer",
+                    "parties": [
+                        "Reform"
+                    ],
+                    "voteTotal": 1016
+                },
+                {
+                    "candidate": "Jeff Boss",
+                    "parties": [
+                        "NSA Did 911"
+                    ],
+                    "voteTotal": 1007
+                },
+                {
+                    "candidate": "Andre Barnett",
+                    "parties": [
+                        "Reform"
+                    ],
+                    "voteTotal": 956
+                },
+                {
+                    "candidate": "Jack Fellure",
+                    "parties": [
+                        "Prohibition"
+                    ],
+                    "voteTotal": 518
+                }
+            ],
+            "totalVotes": 129085403,
+            "type": "presidential",
+            "votingAge": 235248000,
+            "year": "2012"
+        }
+
+
+## Choice [/questions/{question_id}/choices/{choice_id}]
+
++ Parameters
+    + question_id: 1 (required, number) - ID of the Question in form of an integer
+    + choice_id: 1 (required, number) - ID of the Choice in form of an integer
+
+### Vote on a Choice [POST]
+
+This action allows you to vote on a question's choice.
+
++ Response 201
+
+    + Headers
+
+            Location: /questions/1
+
+## Questions Collection [/questions{?page}]
+
++ Parameters
+    + page: 1 (optional, number) - The page of questions to return
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Link: </questions?page=2>; rel="next"
+
+    + Body
+
+            [
+                {
+                    "question": "Favourite programming language?",
+                    "published_at": "2014-11-11T08:40:51.620Z",
+                    "url": "/questions/1",
+                    "choices": [
+                        {
+                            "choice": "Swift",
+                            "url": "/questions/1/choices/1",
+                            "votes": 2048
+                        }, {
+                            "choice": "Python",
+                            "url": "/questions/1/choices/2",
+                            "votes": 1024
+                        }, {
+                            "choice": "Objective-C",
+                            "url": "/questions/1/choices/3",
+                            "votes": 512
+                        }, {
+                            "choice": "Ruby",
+                            "url": "/questions/1/choices/4",
+                            "votes": 256
+                        }
+                    ]
+                }
+            ]
+
+### Create a New Question [POST]
+
+You may create your own question using this action. It takes a JSON
+object containing a question and a collection of answers in the
+form of choices.
+
++ question (string) - The question
++ choices (array[string]) - A collection of choices.
+
++ Request (application/json)
+
+        {
+            "question": "Favourite programming language?",
+            "choices": [
+                "Swift",
+                "Python",
+                "Objective-C",
+                "Ruby"
+            ]
+        }
+
++ Response 201 (application/json)
+
+    + Headers
+
+            Location: /questions/2
+
+    + Body
+
+            {
+                "question": "Favourite programming language?",
+                "published_at": "2014-11-11T08:40:51.620Z",
+                "url": "/questions/2",
+                "choices": [
+                    {
+                        "choice": "Swift",
+                        "url": "/questions/2/choices/1",
+                        "votes": 0
+                    }, {
+                        "choice": "Python",
+                        "url": "/questions/2/choices/2",
+                        "votes": 0
+                    }, {
+                        "choice": "Objective-C",
+                        "url": "/questions/2/choices/3",
+                        "votes": 0
+                    }, {
+                        "choice": "Ruby",
+                        "url": "/questions/2/choices/4",
+                        "votes": 0
+                    }
+                ]
+            }
