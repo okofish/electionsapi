@@ -4,12 +4,14 @@ app = express();
 
 _ = require('underscore');
 
-function dropMetaKeys(obj){
-  return _.omit(obj,["createdAt","updatedAt","objectId"])
+function dropMetaKeys(obj) {
+  return _.omit(obj, ["createdAt", "updatedAt", "objectId"])
 }
 
-function dropMetaKeysL2(obj){
-  return _.map(obj,function(l2obj){return dropMetaKeys(l2obj)})
+function dropMetaKeysL2(obj) {
+  return _.map(obj, function(l2obj) {
+    return dropMetaKeys(l2obj)
+  })
 }
 
 // Global app configuration section
@@ -33,6 +35,12 @@ app.get('/elections/:year/:election', function(req, res) {
     }
   });
 });
+
+app.get('/', function(req, res) {
+  res.send({
+    "elections_url": "/elections"
+  })
+})
 
 // // Example reading from the request query string of an HTTP get request.
 // app.get('/test', function(req, res) {
