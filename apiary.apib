@@ -50,10 +50,15 @@ An Election object has the following attributes:
 + Response 200 (application/json)
 
         {
-            "totalVotes": 129085403,
-            "type": "presidential",
-            "votingAge": 235248000,
-            "year": "2012"
+          "year": "2012",
+          "type": "presidential",
+          "totalVotes": 129085403,
+          "votingAge": 235248000,
+          "dataTypes": [
+            "popularvote",
+            "electoralstatevote"
+          ],
+          "url": "/elections/2012/presidential"
         }
 
 
@@ -80,3 +85,236 @@ An Election object has the following attributes:
         + Members
             + `popularvote` - Array consisting of vote information on each candidate.
             + `electoralstatevote` - Array consisting of per-state electoral vote information on the top two candidates.
+            
+
++ Response 200 (application/json)
+
+        {
+          "year": "2012",
+          "type": "presidential",
+          "popularVote": [
+            {
+              "candidate": "Barack Obama",
+              "parties": [
+                "Democrat"
+              ],
+              "voteTotal": 65915796
+            },
+            {
+              "candidate": "Mitt Romney",
+              "parties": [
+                "Republican"
+              ],
+              "voteTotal": 60933500
+            },
+            {
+              "candidate": "Gary Johnson",
+              "parties": [
+                "Libertarian",
+                "Independent"
+              ],
+              "voteTotal": 1275971
+            },
+            {
+              "candidate": "Jill Stein",
+              "parties": [
+                "Green",
+                "Pacific Green",
+                "Mountain",
+                "Independent"
+              ],
+              "voteTotal": 469628
+            },
+            {
+              "candidate": "Write-In",
+              "parties": [
+                "Miscellaneous"
+              ],
+              "voteTotal": 136040
+            },
+            {
+              "candidate": "Virgil Goode",
+              "parties": [
+                "Constitution",
+                "Independent American",
+                "U.S. Taxpayers"
+              ],
+              "voteTotal": 122388
+            },
+            {
+              "candidate": "Roseann Barr",
+              "parties": [
+                "Peace and Freedom"
+              ],
+              "voteTotal": 67326
+            },
+            {
+              "candidate": "Ross C. \"Rocky\" Anderson",
+              "parties": [
+                "Justice",
+                "Progressive",
+                "Independent"
+              ],
+              "voteTotal": 43018
+            },
+            {
+              "candidate": "Tom Hoefling",
+              "parties": [
+                "American Independent",
+                "America's Party"
+              ],
+              "voteTotal": 40628
+            },
+            {
+              "candidate": "Randall Terry",
+              "parties": [
+                "Independent"
+              ],
+              "voteTotal": 13105
+            },
+            {
+              "candidate": "Richard Duncan",
+              "parties": [
+                "Independent"
+              ],
+              "voteTotal": 12557
+            },
+            {
+              "candidate": "Peta Lindsay",
+              "parties": [
+                "Socialism and Liberation"
+              ],
+              "voteTotal": 7791
+            },
+            {
+              "candidate": "None of These Candidates",
+              "parties": [
+                "Nevada"
+              ],
+              "voteTotal": 5770
+            },
+            {
+              "candidate": "Chuck Baldwin",
+              "parties": [
+                "Reform"
+              ],
+              "voteTotal": 5017
+            },
+            {
+              "candidate": "Will Christensen",
+              "parties": [
+                "Constitution"
+              ],
+              "voteTotal": 4453
+            },
+            {
+              "candidate": "Stewart Alexander",
+              "parties": [
+                "Socialist"
+              ],
+              "voteTotal": 4405
+            },
+            {
+              "candidate": "James Harris",
+              "parties": [
+                "Socialist Workers"
+              ],
+              "voteTotal": 4117
+            },
+            {
+              "candidate": "Thomas Robert Stevens",
+              "parties": [
+                "Objectivist"
+              ],
+              "voteTotal": 4091
+            },
+            {
+              "candidate": "Jim Carlson",
+              "parties": [
+                "Grassroots"
+              ],
+              "voteTotal": 3149
+            },
+            {
+              "candidate": "Jill Reed",
+              "parties": [
+                "Unaffiliated"
+              ],
+              "voteTotal": 2875
+            },
+            {
+              "candidate": "Merlin Miller",
+              "parties": [
+                "American Third Position",
+                "Independent"
+              ],
+              "voteTotal": 2701
+            },
+            {
+              "candidate": "Sheila \"Samm\" Tittle",
+              "parties": [
+                "We the People)"
+              ],
+              "voteTotal": 2572
+            },
+            {
+              "candidate": "Gloria La Riva",
+              "parties": [
+                "Socialism and Liberation",
+                "Independent"
+              ],
+              "voteTotal": 1608
+            },
+            {
+              "candidate": "Jerry White",
+              "parties": [
+                "Socialist Equality",
+                "Independent"
+              ],
+              "voteTotal": 1279
+            },
+            {
+              "candidate": "Dean Morstad",
+              "parties": [
+                "Constitutional Government"
+              ],
+              "voteTotal": 1094
+            },
+            {
+              "candidate": "Jerry Litzel",
+              "parties": [
+                "Independent"
+              ],
+              "voteTotal": 1027
+            },
+            {
+              "candidate": "Barbara Dale Washer",
+              "parties": [
+                "Reform"
+              ],
+              "voteTotal": 1016
+            },
+            {
+              "candidate": "Jeff Boss",
+              "parties": [
+                "NSA Did 911"
+              ],
+              "voteTotal": 1007
+            },
+            {
+              "candidate": "Andre Barnett",
+              "parties": [
+                "Reform"
+              ],
+              "voteTotal": 956
+            },
+            {
+              "candidate": "Jack Fellure",
+              "parties": [
+                "Prohibition"
+              ],
+              "voteTotal": 518
+            }
+          ],
+          "url": "/elections/2012/presidential/data/popularvote"
+        }
