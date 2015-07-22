@@ -2,14 +2,14 @@
 express = require('express');
 app = express();
 
-_ = require('underscore');
+G = require('cloud/global.js')
 
 function dropMetaKeys(obj) {
-  return _.omit(obj, ["createdAt", "updatedAt", "objectId"])
+  return G._.omit(obj, ["createdAt", "updatedAt", "objectId"])
 }
 
 function dropMetaKeysL2(obj) {
-  return _.map(obj, function(l2obj) {
+  return G._.map(obj, function(l2obj) {
     return dropMetaKeys(l2obj)
   })
 }
@@ -19,119 +19,33 @@ app.set('views', 'cloud/views'); // Specify the folder to find templates
 app.set('view engine', 'ejs'); // Set the template engine
 app.use(express.bodyParser()); // Middleware for reading request body
 
-app.get('/elections/:year/:election', function(req, res) {
-  Parse.Analytics.track('req', { path: req.path });
-  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election });
-  var Election = Parse.Object.extend("Election");
-  var query = new Parse.Query(Election);
-  query.equalTo("type", req.params.election);
-  query.equalTo("year", req.params.year);
-  query.find({
-    success: function(results) {
-      var dataTypes = [];
-      _.map(["popularVote", "electoralStateVote"], function(dtype) {
-        if (results[0].get(dtype) != undefined) {
-          dataTypes.push(dtype.toLowerCase())
-        }
-      })
-      res.type('json');
-      res.send({
-        "year": results[0].get("year"),
-        "type": results[0].get("type"),
-        "totalVotes": results[0].get("totalVotes"),
-        "votingAge": results[0].get("votingAge"),
-        "dataTypes": dataTypes,
-        "url": req.path
-      })
-    },
-    error: function(error) {
-      console.error("Error: " + error.code + " " + error.message);
-    }
-  });
-});
 
-app.get('/elections/:year/:election/data/popularvote', function(req, res) {
-  Parse.Analytics.track('req', { path: req.path });
-  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election, datatype: "popularvote" });
-  var Election = Parse.Object.extend("Election");
-  var query = new Parse.Query(Election);
-  query.equalTo("type", req.params.election);
-  query.equalTo("year", req.params.year);
-  query.find({
-    success: function(results) {
-      res.type('json');
-      res.send({
-        "year": results[0].get("year"),
-        "type": results[0].get("type"),
-        "popularVote": results[0].get("popularVote"),
-        "url": req.path
-      })
-    },
-    error: function(error) {
-      console.error("Error: " + error.code + " " + error.message);
-    }
-  });
-});
 
-app.get('/elections/:year/:election/data/electoralstatevote', function(req, res) {
-  Parse.Analytics.track('req', { path: req.path });
-  Parse.Analytics.track('query', { year: req.params.year, type: req.params.election, datatype: "electoralstatevote" });
-  var Election = Parse.Object.extend("Election");
-  var query = new Parse.Query(Election);
-  query.equalTo("type", req.params.election);
-  query.equalTo("year", req.params.year);
-  query.find({
-    success: function(results) {
-      res.type('json');
-      res.send({
-        "year": results[0].get("year"),
-        "type": results[0].get("type"),
-        "electoralStateVote": results[0].get("electoralStateVote"),
-        "url": req.path
-      })
-    },
-    error: function(error) {
-      console.error("Error: " + error.code + " " + error.message);
-    }
-  });
-});
+require('cloud/elections/elections.js')(app)
+require('cloud/elections/election/election.js')(app)
 
-app.get('/elections', function(req, res) {
-  Parse.Analytics.track('req', { path: req.path });
-  var Election = Parse.Object.extend("Election");
-  var query = new Parse.Query(Election);
-  query.find({
-    success: function(results) {
-      var electionslist = [];
-      for (election in results) {
-        electionslist.push({
-          "year": results[election].get("year"),
-          "type": results[election].get("type")
-        })
-      }
-      res.type('json');
-      res.send({
-        "elections": electionslist,
-        "url": req.path
-      })
-    },
-    error: function(error) {
-      console.error("Error: " + error.code + " " + error.message);
-    }
-  });
-})
+require('cloud/elections/election/votes/candidate.js')(app)
+require('cloud/elections/election/votes/state.js')(app)
+
+
 
 app.get('/', function(req, res) {
-  Parse.Analytics.track('req', { path: req.path });
+  Parse.Analytics.track('req', {
+    path: req.path
+  });
   res.type('json');
   res.send({
-    "elections_url": "/elections",
+    "electionsg._url": "/elections",
     "docs": "http://docs.electionsapi.apiary.io/"
   })
 })
 
 app.use(function(req, res) {
-  Parse.Analytics.track('error', { type: '404', path: req.path });
+  Parse.Analytics.track('error', {
+    type: '404',
+    path: req.path
+  });
+  res.type('json');
   res.send({
     "error": {
       "code": 404,

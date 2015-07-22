@@ -35,9 +35,7 @@
         "year": "2004"
     },
 	{
-        "createdAt": "2015-07-19T01:07:18.380Z",
-        "objectId": "UcuNrN2SjS",
-        "popularVote": [
+        "candidateVotes": [
             {
                 "candidate": "George W. Bush",
                 "parties": [
@@ -177,375 +175,631 @@
                 "voteTotal": 140
             }
         ],
+        "createdAt": "2015-07-19T01:07:18.380Z",
+        "objectId": "UcuNrN2SjS",
+        "stateVote": [
+            {
+                "electoralVote": {
+                    "Bush": 9,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 13122,
+                    "Bush": 1176394,
+                    "Kerry": 693933
+                },
+                "state": "AL"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 3,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 10684,
+                    "Bush": 190889,
+                    "Kerry": 111025
+                },
+                "state": "AK"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 10,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 14767,
+                    "Bush": 1104294,
+                    "Kerry": 893524
+                },
+                "state": "AZ"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 6,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 12094,
+                    "Bush": 572898,
+                    "Kerry": 469953
+                },
+                "state": "AR"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 55
+                },
+                "popularVote": {
+                    "All Others": 166541,
+                    "Bush": 5509826,
+                    "Kerry": 6745485
+                },
+                "state": "CA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 9,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 27343,
+                    "Bush": 1101255,
+                    "Kerry": 1001732
+                },
+                "state": "CO"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 7
+                },
+                "popularVote": {
+                    "All Others": 27455,
+                    "Bush": 693826,
+                    "Kerry": 857488
+                },
+                "state": "CT"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 3
+                },
+                "popularVote": {
+                    "All Others": 3378,
+                    "Bush": 171660,
+                    "Kerry": 200152
+                },
+                "state": "DE"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 3
+                },
+                "popularVote": {
+                    "All Others": 3360,
+                    "Bush": 21256,
+                    "Kerry": 202970
+                },
+                "state": "DC"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 27,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 61744,
+                    "Bush": 3964522,
+                    "Kerry": 3583544
+                },
+                "state": "FL"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 15,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 21472,
+                    "Bush": 1914254,
+                    "Kerry": 1366149
+                },
+                "state": "GA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 4
+                },
+                "popularVote": {
+                    "All Others": 3114,
+                    "Bush": 194191,
+                    "Kerry": 231708
+                },
+                "state": "HI"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 4,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 8114,
+                    "Bush": 409235,
+                    "Kerry": 181098
+                },
+                "state": "ID"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 21
+                },
+                "popularVote": {
+                    "All Others": 36826,
+                    "Bush": 2345946,
+                    "Kerry": 2891550
+                },
+                "state": "IL"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 11,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 19553,
+                    "Bush": 1479438,
+                    "Kerry": 969011
+                },
+                "state": "IN"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 7,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 13053,
+                    "Bush": 751957,
+                    "Kerry": 741898
+                },
+                "state": "IA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 6,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 16307,
+                    "Bush": 736456,
+                    "Kerry": 434993
+                },
+                "state": "KS"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 8,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 13710,
+                    "Bush": 1069439,
+                    "Kerry": 712733
+                },
+                "state": "KY"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 9,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 20638,
+                    "Bush": 1102169,
+                    "Kerry": 820299
+                },
+                "state": "LA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 4
+                },
+                "popularVote": {
+                    "All Others": 13709,
+                    "Bush": 330201,
+                    "Kerry": 396842
+                },
+                "state": "ME"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 10
+                },
+                "popularVote": {
+                    "All Others": 27482,
+                    "Bush": 1024703,
+                    "Kerry": 1334493
+                },
+                "state": "MD"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 12
+                },
+                "popularVote": {
+                    "All Others": 37479,
+                    "Bush": 1071109,
+                    "Kerry": 1803800
+                },
+                "state": "MA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 17
+                },
+                "popularVote": {
+                    "All Others": 46323,
+                    "Bush": 2313746,
+                    "Kerry": 2479183
+                },
+                "state": "MI"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Edwards": 1,
+                    "Kerry": 9
+                },
+                "popularVote": {
+                    "All Others": 36678,
+                    "Bush": 1346695,
+                    "Kerry": 1445014
+                },
+                "state": "MN"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 6,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 9070,
+                    "Bush": 684981,
+                    "Kerry": 458094
+                },
+                "state": "MS"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 11,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 16480,
+                    "Bush": 1455713,
+                    "Kerry": 1259171
+                },
+                "state": "MO"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 3,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 10672,
+                    "Bush": 266063,
+                    "Kerry": 173710
+                },
+                "state": "MT"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 5,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 11044,
+                    "Bush": 512814,
+                    "Kerry": 254328
+                },
+                "state": "NE"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 5,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 13707,
+                    "Bush": 418690,
+                    "Kerry": 397190
+                },
+                "state": "NV"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 4
+                },
+                "popularVote": {
+                    "All Others": 5990,
+                    "Bush": 331237,
+                    "Kerry": 340511
+                },
+                "state": "NH"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 15
+                },
+                "popularVote": {
+                    "All Others": 30258,
+                    "Bush": 1670003,
+                    "Kerry": 1911430
+                },
+                "state": "NJ"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 5,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 8432,
+                    "Bush": 376930,
+                    "Kerry": 370942
+                },
+                "state": "NM"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 31
+                },
+                "popularVote": {
+                    "All Others": 114189,
+                    "Bush": 2962567,
+                    "Kerry": 4314280
+                },
+                "state": "NY"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 15,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 13992,
+                    "Bush": 1961166,
+                    "Kerry": 1525849
+                },
+                "state": "NC"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 3,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 5130,
+                    "Bush": 196651,
+                    "Kerry": 111052
+                },
+                "state": "ND"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 20,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 26973,
+                    "Bush": 2859768,
+                    "Kerry": 2741167
+                },
+                "state": "OH"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 7,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 0,
+                    "Bush": 959792,
+                    "Kerry": 503966
+                },
+                "state": "OK"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 7
+                },
+                "popularVote": {
+                    "All Others": 26788,
+                    "Bush": 866831,
+                    "Kerry": 943163
+                },
+                "state": "OR"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 21
+                },
+                "popularVote": {
+                    "All Others": 37648,
+                    "Bush": 2793847,
+                    "Kerry": 2938095
+                },
+                "state": "PA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 4
+                },
+                "popularVote": {
+                    "All Others": 8323,
+                    "Bush": 169046,
+                    "Kerry": 259765
+                },
+                "state": "RI"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 8,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 18057,
+                    "Bush": 937974,
+                    "Kerry": 661699
+                },
+                "state": "SC"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 3,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 6387,
+                    "Bush": 232584,
+                    "Kerry": 149244
+                },
+                "state": "SD"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 11,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 16467,
+                    "Bush": 1384375,
+                    "Kerry": 1036477
+                },
+                "state": "TN"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 34,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 51144,
+                    "Bush": 4526917,
+                    "Kerry": 2832704
+                },
+                "state": "TX"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 5,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 22903,
+                    "Bush": 663742,
+                    "Kerry": 241199
+                },
+                "state": "UT"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 3
+                },
+                "popularVote": {
+                    "All Others": 7062,
+                    "Bush": 121180,
+                    "Kerry": 184067
+                },
+                "state": "VT"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 13,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 26666,
+                    "Bush": 1716959,
+                    "Kerry": 1454742
+                },
+                "state": "VA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 11
+                },
+                "popularVote": {
+                    "All Others": 43989,
+                    "Bush": 1304894,
+                    "Kerry": 1510201
+                },
+                "state": "WA"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 5,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 5568,
+                    "Bush": 423778,
+                    "Kerry": 326541
+                },
+                "state": "WV"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 0,
+                    "Kerry": 10
+                },
+                "popularVote": {
+                    "All Others": 29383,
+                    "Bush": 1478120,
+                    "Kerry": 1489504
+                },
+                "state": "WI"
+            },
+            {
+                "electoralVote": {
+                    "Bush": 3,
+                    "Kerry": 0
+                },
+                "popularVote": {
+                    "All Others": 5023,
+                    "Bush": 167629,
+                    "Kerry": 70776
+                },
+                "state": "WY"
+            }
+        ],
         "totalVotes": 122295345,
         "type": "presidential",
-        "updatedAt": "2015-07-19T02:05:53.745Z",
+        "updatedAt": "2015-07-22T00:46:19.495Z",
         "votingAge": 215694000,
         "year": "2004"
     },
 	{
-        "createdAt": "2015-07-19T01:07:06.661Z",
-        "electoralStateVote": [
-            {
-                "state": "AL",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 9
-                }
-            },
-            {
-                "state": "AK",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 3
-                }
-            },
-            {
-                "state": "AZ",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 10
-                }
-            },
-            {
-                "state": "AR",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 6
-                }
-            },
-            {
-                "state": "CA",
-                "votes": {
-                    "Barack Obama": 55,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "CO",
-                "votes": {
-                    "Barack Obama": 9,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "CT",
-                "votes": {
-                    "Barack Obama": 7,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "DE",
-                "votes": {
-                    "Barack Obama": 3,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "DC",
-                "votes": {
-                    "Barack Obama": 3,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "FL",
-                "votes": {
-                    "Barack Obama": 27,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "GA",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 15
-                }
-            },
-            {
-                "state": "HI",
-                "votes": {
-                    "Barack Obama": 4,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "ID",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 4
-                }
-            },
-            {
-                "state": "IL",
-                "votes": {
-                    "Barack Obama": 21,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "IN",
-                "votes": {
-                    "Barack Obama": 11,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "IA",
-                "votes": {
-                    "Barack Obama": 7,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "KS",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 6
-                }
-            },
-            {
-                "state": "KY",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 8
-                }
-            },
-            {
-                "state": "LA",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 9
-                }
-            },
-            {
-                "state": "ME",
-                "votes": {
-                    "Barack Obama": 4,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "MD",
-                "votes": {
-                    "Barack Obama": 10,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "MA",
-                "votes": {
-                    "Barack Obama": 12,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "MI",
-                "votes": {
-                    "Barack Obama": 17,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "MN",
-                "votes": {
-                    "Barack Obama": 10,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "MS",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 6
-                }
-            },
-            {
-                "state": "MO",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 11
-                }
-            },
-            {
-                "state": "MT",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 3
-                }
-            },
-            {
-                "state": "NE",
-                "votes": {
-                    "Barack Obama": 1,
-                    "John McCain": 4
-                }
-            },
-            {
-                "state": "NV",
-                "votes": {
-                    "Barack Obama": 5,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "NH",
-                "votes": {
-                    "Barack Obama": 4,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "NJ",
-                "votes": {
-                    "Barack Obama": 15,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "NM",
-                "votes": {
-                    "Barack Obama": 5,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "NY",
-                "votes": {
-                    "Barack Obama": 31,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "NC",
-                "votes": {
-                    "Barack Obama": 15,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "ND",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 3
-                }
-            },
-            {
-                "state": "OH",
-                "votes": {
-                    "Barack Obama": 20,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "OK",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 7
-                }
-            },
-            {
-                "state": "OR",
-                "votes": {
-                    "Barack Obama": 7,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "PA",
-                "votes": {
-                    "Barack Obama": 21,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "RI",
-                "votes": {
-                    "Barack Obama": 4,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "SC",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 8
-                }
-            },
-            {
-                "state": "SD",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 3
-                }
-            },
-            {
-                "state": "TN",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 11
-                }
-            },
-            {
-                "state": "TX",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 34
-                }
-            },
-            {
-                "state": "UT",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 5
-                }
-            },
-            {
-                "state": "VT",
-                "votes": {
-                    "Barack Obama": 3,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "VA",
-                "votes": {
-                    "Barack Obama": 13,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "WA",
-                "votes": {
-                    "Barack Obama": 11,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "WV",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 5
-                }
-            },
-            {
-                "state": "WI",
-                "votes": {
-                    "Barack Obama": 10,
-                    "John McCain": 0
-                }
-            },
-            {
-                "state": "WY",
-                "votes": {
-                    "Barack Obama": 0,
-                    "John McCain": 3
-                }
-            }
-        ],
-        "objectId": "E49GUR1ZkL",
-        "popularVote": [
+        "candidateVotes": [
             {
                 "candidate": "Barack Obama",
                 "parties": [
@@ -734,375 +988,630 @@
                 "voteTotal": 110
             }
         ],
+        "createdAt": "2015-07-19T01:07:06.661Z",
+        "objectId": "E49GUR1ZkL",
+        "stateVote": [
+            {
+                "electoralVote": {
+                    "McCain": 9,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 19794,
+                    "McCain": 1266546,
+                    "Obama": 813479
+                },
+                "state": "AL"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 3,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 8762,
+                    "McCain": 193841,
+                    "Obama": 123594
+                },
+                "state": "AK"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 10,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 28657,
+                    "McCain": 1230111,
+                    "Obama": 1034707
+                },
+                "state": "AZ"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 6,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 26290,
+                    "McCain": 638017,
+                    "Obama": 422310
+                },
+                "state": "AR"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 55
+                },
+                "popularVote": {
+                    "All Others": 275646,
+                    "McCain": 5011781,
+                    "Obama": 8274473
+                },
+                "state": "CA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 9
+                },
+                "popularVote": {
+                    "All Others": 39200,
+                    "McCain": 1073629,
+                    "Obama": 1288633
+                },
+                "state": "CO"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 7
+                },
+                "popularVote": {
+                    "All Others": 19597,
+                    "McCain": 629428,
+                    "Obama": 997772
+                },
+                "state": "CT"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 3
+                },
+                "popularVote": {
+                    "All Others": 4579,
+                    "McCain": 152374,
+                    "Obama": 255459
+                },
+                "state": "DE"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 3
+                },
+                "popularVote": {
+                    "All Others": 2686,
+                    "McCain": 17367,
+                    "Obama": 245800
+                },
+                "state": "DC"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 27
+                },
+                "popularVote": {
+                    "All Others": 63046,
+                    "McCain": 4045624,
+                    "Obama": 4282074
+                },
+                "state": "FL"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 15,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 31604,
+                    "McCain": 2048759,
+                    "Obama": 1844123
+                },
+                "state": "GA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 4
+                },
+                "popularVote": {
+                    "All Others": 7131,
+                    "McCain": 120566,
+                    "Obama": 325871
+                },
+                "state": "HI"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 4,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 15670,
+                    "McCain": 403012,
+                    "Obama": 236440
+                },
+                "state": "ID"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 21
+                },
+                "popularVote": {
+                    "All Others": 71844,
+                    "McCain": 2031179,
+                    "Obama": 3419348
+                },
+                "state": "IL"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 11
+                },
+                "popularVote": {
+                    "All Others": 31367,
+                    "McCain": 1345648,
+                    "Obama": 1374039
+                },
+                "state": "IN"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 7
+                },
+                "popularVote": {
+                    "All Others": 25804,
+                    "McCain": 682379,
+                    "Obama": 828940
+                },
+                "state": "IA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 6,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 21452,
+                    "McCain": 699655,
+                    "Obama": 514765
+                },
+                "state": "KS"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 8,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 26173,
+                    "McCain": 1048462,
+                    "Obama": 751985
+                },
+                "state": "KY"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 9,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 29497,
+                    "McCain": 1148275,
+                    "Obama": 782989
+                },
+                "state": "LA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 4
+                },
+                "popularVote": {
+                    "All Others": 13967,
+                    "McCain": 295273,
+                    "Obama": 421923
+                },
+                "state": "ME"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 10
+                },
+                "popularVote": {
+                    "All Others": 42267,
+                    "McCain": 959862,
+                    "Obama": 1629467
+                },
+                "state": "MD"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 12
+                },
+                "popularVote": {
+                    "All Others": 68034,
+                    "McCain": 1108854,
+                    "Obama": 1904097
+                },
+                "state": "MA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 17
+                },
+                "popularVote": {
+                    "All Others": 80548,
+                    "McCain": 2048639,
+                    "Obama": 2872579
+                },
+                "state": "MI"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 10
+                },
+                "popularVote": {
+                    "All Others": 61606,
+                    "McCain": 1275409,
+                    "Obama": 1573354
+                },
+                "state": "MN"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 6,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 10606,
+                    "McCain": 724597,
+                    "Obama": 554662
+                },
+                "state": "MS"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 11,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 37480,
+                    "McCain": 1445814,
+                    "Obama": 1441911
+                },
+                "state": "MO"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 3,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 15872,
+                    "McCain": 242763,
+                    "Obama": 231667
+                },
+                "state": "MT"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 4,
+                    "Obama": 1
+                },
+                "popularVote": {
+                    "All Others": 14983,
+                    "McCain": 452979,
+                    "Obama": 333319
+                },
+                "state": "NE"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 5
+                },
+                "popularVote": {
+                    "All Others": 21285,
+                    "McCain": 412827,
+                    "Obama": 533736
+                },
+                "state": "NV"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 4
+                },
+                "popularVote": {
+                    "All Others": 9610,
+                    "McCain": 316534,
+                    "Obama": 384826
+                },
+                "state": "NH"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 15
+                },
+                "popularVote": {
+                    "All Others": 39608,
+                    "McCain": 1613207,
+                    "Obama": 2215422
+                },
+                "state": "NJ"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 5
+                },
+                "popularVote": {
+                    "All Others": 10904,
+                    "McCain": 346832,
+                    "Obama": 472422
+                },
+                "state": "NM"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 31
+                },
+                "popularVote": {
+                    "All Others": 83215,
+                    "McCain": 2752771,
+                    "Obama": 4804945
+                },
+                "state": "NY"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 15
+                },
+                "popularVote": {
+                    "All Others": 39664,
+                    "McCain": 2128474,
+                    "Obama": 2142651
+                },
+                "state": "NC"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 3,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 6742,
+                    "McCain": 168601,
+                    "Obama": 141278
+                },
+                "state": "ND"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 20
+                },
+                "popularVote": {
+                    "All Others": 90486,
+                    "McCain": 2677820,
+                    "Obama": 2940044
+                },
+                "state": "OH"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 7,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 0,
+                    "McCain": 960165,
+                    "Obama": 502496
+                },
+                "state": "OK"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 7
+                },
+                "popularVote": {
+                    "All Others": 52098,
+                    "McCain": 738475,
+                    "Obama": 1037291
+                },
+                "state": "OR"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 21
+                },
+                "popularVote": {
+                    "All Others": 81024,
+                    "McCain": 2655885,
+                    "Obama": 3276363
+                },
+                "state": "PA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 4
+                },
+                "popularVote": {
+                    "All Others": 9804,
+                    "McCain": 165391,
+                    "Obama": 296571
+                },
+                "state": "RI"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 8,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 23624,
+                    "McCain": 1034896,
+                    "Obama": 862449
+                },
+                "state": "SC"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 3,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 7997,
+                    "McCain": 203054,
+                    "Obama": 170924
+                },
+                "state": "SD"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 11,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 33134,
+                    "McCain": 1479178,
+                    "Obama": 1087437
+                },
+                "state": "TN"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 34,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 69834,
+                    "McCain": 4479328,
+                    "Obama": 3528633
+                },
+                "state": "TX"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 5,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 28670,
+                    "McCain": 596030,
+                    "Obama": 327670
+                },
+                "state": "UT"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 3
+                },
+                "popularVote": {
+                    "All Others": 6810,
+                    "McCain": 98974,
+                    "Obama": 219262
+                },
+                "state": "VT"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 13
+                },
+                "popularVote": {
+                    "All Others": 38723,
+                    "McCain": 1725005,
+                    "Obama": 1959532
+                },
+                "state": "VA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 11
+                },
+                "popularVote": {
+                    "All Others": 56814,
+                    "McCain": 1229216,
+                    "Obama": 1750848
+                },
+                "state": "WA"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 5,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 12128,
+                    "McCain": 397466,
+                    "Obama": 303857
+                },
+                "state": "WV"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 0,
+                    "Obama": 10
+                },
+                "popularVote": {
+                    "All Others": 43813,
+                    "McCain": 1262393,
+                    "Obama": 1677211
+                },
+                "state": "WI"
+            },
+            {
+                "electoralVote": {
+                    "McCain": 3,
+                    "Obama": 0
+                },
+                "popularVote": {
+                    "All Others": 6832,
+                    "McCain": 164958,
+                    "Obama": 82868
+                },
+                "state": "WY"
+            }
+        ],
         "totalVotes": 131313820,
         "type": "presidential",
-        "updatedAt": "2015-07-19T03:25:33.906Z",
+        "updatedAt": "2015-07-22T00:46:40.267Z",
         "votingAge": 225499000,
         "year": "2008"
     },
 	{
-        "createdAt": "2015-07-19T00:32:02.506Z",
-        "electoralStateVote": [
-            {
-                "state": "AL",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 9
-                }
-            },
-            {
-                "state": "AK",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 3
-                }
-            },
-            {
-                "state": "AZ",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 11
-                }
-            },
-            {
-                "state": "AR",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 6
-                }
-            },
-            {
-                "state": "CA",
-                "votes": {
-                    "Barack Obama": 55,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "CO",
-                "votes": {
-                    "Barack Obama": 9,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "CT",
-                "votes": {
-                    "Barack Obama": 7,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "DE",
-                "votes": {
-                    "Barack Obama": 3,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "DC",
-                "votes": {
-                    "Barack Obama": 3,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "FL",
-                "votes": {
-                    "Barack Obama": 29,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "GA",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 16
-                }
-            },
-            {
-                "state": "HI",
-                "votes": {
-                    "Barack Obama": 4,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "ID",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 4
-                }
-            },
-            {
-                "state": "IL",
-                "votes": {
-                    "Barack Obama": 20,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "IN",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 11
-                }
-            },
-            {
-                "state": "IA",
-                "votes": {
-                    "Barack Obama": 6,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "KS",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 6
-                }
-            },
-            {
-                "state": "KY",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 8
-                }
-            },
-            {
-                "state": "LA",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 8
-                }
-            },
-            {
-                "state": "ME",
-                "votes": {
-                    "Barack Obama": 4,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "MD",
-                "votes": {
-                    "Barack Obama": 10,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "MA",
-                "votes": {
-                    "Barack Obama": 11,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "MI",
-                "votes": {
-                    "Barack Obama": 16,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "MN",
-                "votes": {
-                    "Barack Obama": 10,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "MS",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 6
-                }
-            },
-            {
-                "state": "MO",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 10
-                }
-            },
-            {
-                "state": "MT",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 3
-                }
-            },
-            {
-                "state": "NE",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 5
-                }
-            },
-            {
-                "state": "NV",
-                "votes": {
-                    "Barack Obama": 6,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "NH",
-                "votes": {
-                    "Barack Obama": 4,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "NJ",
-                "votes": {
-                    "Barack Obama": 14,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "NM",
-                "votes": {
-                    "Barack Obama": 5,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "NY",
-                "votes": {
-                    "Barack Obama": 29,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "NC",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 15
-                }
-            },
-            {
-                "state": "ND",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 3
-                }
-            },
-            {
-                "state": "OH",
-                "votes": {
-                    "Barack Obama": 18,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "OK",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 7
-                }
-            },
-            {
-                "state": "OR",
-                "votes": {
-                    "Barack Obama": 7,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "PA",
-                "votes": {
-                    "Barack Obama": 20,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "RI",
-                "votes": {
-                    "Barack Obama": 4,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "SC",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 9
-                }
-            },
-            {
-                "state": "SD",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 3
-                }
-            },
-            {
-                "state": "TN",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 11
-                }
-            },
-            {
-                "state": "TX",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 38
-                }
-            },
-            {
-                "state": "UT",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 6
-                }
-            },
-            {
-                "state": "VT",
-                "votes": {
-                    "Barack Obama": 3,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "VA",
-                "votes": {
-                    "Barack Obama": 13,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "WA",
-                "votes": {
-                    "Barack Obama": 12,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "WV",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 5
-                }
-            },
-            {
-                "state": "WI",
-                "votes": {
-                    "Barack Obama": 10,
-                    "Mitt Romney": 0
-                }
-            },
-            {
-                "state": "WY",
-                "votes": {
-                    "Barack Obama": 0,
-                    "Mitt Romney": 3
-                }
-            }
-        ],
-        "objectId": "60jCsABoyp",
-        "popularVote": [
+        "candidateVotes": [
             {
                 "candidate": "Barack Obama",
                 "parties": [
@@ -1326,9 +1835,625 @@
                 "voteTotal": 518
             }
         ],
+        "createdAt": "2015-07-19T00:32:02.506Z",
+        "objectId": "60jCsABoyp",
+        "stateVote": [
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 9
+                },
+                "popularVote": {
+                    "All Others": 22717,
+                    "Obama": 795696,
+                    "Romney": 1255925
+                },
+                "state": "AL"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 3
+                },
+                "popularVote": {
+                    "All Others": 13179,
+                    "Obama": 122640,
+                    "Romney": 164676
+                },
+                "state": "AK"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 11
+                },
+                "popularVote": {
+                    "All Others": 40368,
+                    "Obama": 1025232,
+                    "Romney": 1233654
+                },
+                "state": "AZ"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 6
+                },
+                "popularVote": {
+                    "All Others": 27315,
+                    "Obama": 394409,
+                    "Romney": 647744
+                },
+                "state": "AR"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 55,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 344304,
+                    "Obama": 7854285,
+                    "Romney": 4839958
+                },
+                "state": "CA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 9,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 61177,
+                    "Obama": 1323102,
+                    "Romney": 1185243
+                },
+                "state": "CO"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 7,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 18985,
+                    "Obama": 905083,
+                    "Romney": 634892
+                },
+                "state": "CT"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 3,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 5853,
+                    "Obama": 242584,
+                    "Romney": 165484
+                },
+                "state": "DE"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 3,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 5313,
+                    "Obama": 267070,
+                    "Romney": 21381
+                },
+                "state": "DC"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 29,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 72976,
+                    "Obama": 4237756,
+                    "Romney": 4163447
+                },
+                "state": "FL"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 16
+                },
+                "popularVote": {
+                    "All Others": 47535,
+                    "Obama": 1773827,
+                    "Romney": 2078688
+                },
+                "state": "GA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 4,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 7024,
+                    "Obama": 306658,
+                    "Romney": 121015
+                },
+                "state": "HI"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 4
+                },
+                "popularVote": {
+                    "All Others": 18576,
+                    "Obama": 212787,
+                    "Romney": 420911
+                },
+                "state": "ID"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 20,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 87286,
+                    "Obama": 3019512,
+                    "Romney": 2135216
+                },
+                "state": "IL"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 11
+                },
+                "popularVote": {
+                    "All Others": 51104,
+                    "Obama": 1152887,
+                    "Romney": 1420543
+                },
+                "state": "IN"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 6,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 29019,
+                    "Obama": 822544,
+                    "Romney": 730617
+                },
+                "state": "IA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 6
+                },
+                "popularVote": {
+                    "All Others": 26611,
+                    "Obama": 440726,
+                    "Romney": 692634
+                },
+                "state": "KS"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 8
+                },
+                "popularVote": {
+                    "All Others": 30652,
+                    "Obama": 679370,
+                    "Romney": 1087190
+                },
+                "state": "KY"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 8
+                },
+                "popularVote": {
+                    "All Others": 32662,
+                    "Obama": 809141,
+                    "Romney": 1152262
+                },
+                "state": "LA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 4,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 19598,
+                    "Obama": 401306,
+                    "Romney": 292276
+                },
+                "state": "ME"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 10,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 57614,
+                    "Obama": 1677844,
+                    "Romney": 971869
+                },
+                "state": "MD"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 11,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 58163,
+                    "Obama": 1921290,
+                    "Romney": 1188314
+                },
+                "state": "MA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 16,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 51136,
+                    "Obama": 2564569,
+                    "Romney": 2115256
+                },
+                "state": "MI"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 10,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 70169,
+                    "Obama": 1546167,
+                    "Romney": 1320225
+                },
+                "state": "MN"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 6
+                },
+                "popularVote": {
+                    "All Others": 11889,
+                    "Obama": 562949,
+                    "Romney": 710746
+                },
+                "state": "MS"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 10
+                },
+                "popularVote": {
+                    "All Others": 51087,
+                    "Obama": 1223796,
+                    "Romney": 1482440
+                },
+                "state": "MO"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 3
+                },
+                "popularVote": {
+                    "All Others": 14281,
+                    "Obama": 201839,
+                    "Romney": 267928
+                },
+                "state": "MT"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 5
+                },
+                "popularVote": {
+                    "All Others": 17234,
+                    "Obama": 302081,
+                    "Romney": 475064
+                },
+                "state": "NE"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 6,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 19978,
+                    "Obama": 531373,
+                    "Romney": 463567
+                },
+                "state": "NV"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 4,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 11493,
+                    "Obama": 369561,
+                    "Romney": 329918
+                },
+                "state": "NH"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 14,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 37623,
+                    "Obama": 2125101,
+                    "Romney": 1477568
+                },
+                "state": "NJ"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 5,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 32635,
+                    "Obama": 415335,
+                    "Romney": 335788
+                },
+                "state": "NM"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 29,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 104987,
+                    "Obama": 4485741,
+                    "Romney": 2490431
+                },
+                "state": "NY"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 15
+                },
+                "popularVote": {
+                    "All Others": 56586,
+                    "Obama": 2178391,
+                    "Romney": 2270395
+                },
+                "state": "NC"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 3
+                },
+                "popularVote": {
+                    "All Others": 9637,
+                    "Obama": 124827,
+                    "Romney": 188163
+                },
+                "state": "ND"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 18,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 91697,
+                    "Obama": 2827710,
+                    "Romney": 2661433
+                },
+                "state": "OH"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 7
+                },
+                "popularVote": {
+                    "All Others": 0,
+                    "Obama": 443547,
+                    "Romney": 891325
+                },
+                "state": "OK"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 7,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 64607,
+                    "Obama": 970488,
+                    "Romney": 754175
+                },
+                "state": "OR"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 20,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 82962,
+                    "Obama": 2990274,
+                    "Romney": 2680434
+                },
+                "state": "PA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 4,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 9168,
+                    "Obama": 279677,
+                    "Romney": 157204
+                },
+                "state": "RI"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 9
+                },
+                "popularVote": {
+                    "All Others": 26532,
+                    "Obama": 865941,
+                    "Romney": 1071645
+                },
+                "state": "SC"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 3
+                },
+                "popularVote": {
+                    "All Others": 8166,
+                    "Obama": 145039,
+                    "Romney": 210610
+                },
+                "state": "SD"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 11
+                },
+                "popularVote": {
+                    "All Others": 35538,
+                    "Obama": 960709,
+                    "Romney": 1462330
+                },
+                "state": "TN"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 38
+                },
+                "popularVote": {
+                    "All Others": 115884,
+                    "Obama": 3308124,
+                    "Romney": 4569843
+                },
+                "state": "TX"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 6
+                },
+                "popularVote": {
+                    "All Others": 25027,
+                    "Obama": 251813,
+                    "Romney": 740600
+                },
+                "state": "UT"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 3,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 7353,
+                    "Obama": 199239,
+                    "Romney": 92698
+                },
+                "state": "VT"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 13,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 60147,
+                    "Obama": 1971820,
+                    "Romney": 1822522
+                },
+                "state": "VA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 12,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 79450,
+                    "Obama": 1755396,
+                    "Romney": 1290670
+                },
+                "state": "WA"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 5
+                },
+                "popularVote": {
+                    "All Others": 14514,
+                    "Obama": 238269,
+                    "Romney": 417655
+                },
+                "state": "WV"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 10,
+                    "Romney": 0
+                },
+                "popularVote": {
+                    "All Others": 39483,
+                    "Obama": 1620985,
+                    "Romney": 1407966
+                },
+                "state": "WI"
+            },
+            {
+                "electoralVote": {
+                    "Obama": 0,
+                    "Romney": 3
+                },
+                "popularVote": {
+                    "All Others": 8813,
+                    "Obama": 69286,
+                    "Romney": 170962
+                },
+                "state": "WY"
+            }
+        ],
         "totalVotes": 129085403,
         "type": "presidential",
-        "updatedAt": "2015-07-19T03:25:59.348Z",
+        "updatedAt": "2015-07-22T00:46:58.828Z",
         "votingAge": 235248000,
         "year": "2012"
     }

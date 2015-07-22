@@ -68,255 +68,649 @@ An Election object has the following attributes:
         }
 
 
-## Election data [/elections/{year}/{type}/data/{data_type}]
-
-### Get popular vote information [GET]
+## Election data [/elections/{year}/{election_type}/vote/{data_type}{?state_data_type}]
 
 + Parameters
-    + year: 2012 (required, year) - Year of election. If election type is presidential, must be a presidential federal election year.
+    + year: 2012 (required, year) - Year of election. If election type is presidential, must be a valid presidential election year.
         + Members
             + `2004`
             + `2006`
             + `2008`
             + `2010`
             + `2012`
-    + type: presidential (required) - Type of election.
+    + election_type: presidential (required) - Type of election.
         + Members
             + `presidential`
             + `congressional`
-    + data_type: popularvote (required)
+    + data_type: state (required)
         + Members
-            + `popularvote` - Array consisting of vote information on each candidate.
-            + `electoralstatevote` - Array consisting of per-state electoral vote information on the top two candidates.
+            + `candidate` - Array consisting of total vote information on each candidate.
+            + `state` - Array consisting of per-state electoral and popular vote information on the top two candidates.
+    + state_data_type (optional) - Type of per-state vote data to retrieve.
+        + Members
+            + `popular`
+            + `electoral`
+
+### Get popular vote information [GET]
 
 + Response 200 (application/json)
 
         {
           "year": "2012",
           "type": "presidential",
-          "popularVote": [
+          "states": [
             {
-              "candidate": "Barack Obama",
-              "parties": [
-                "Democrat"
-              ],
-              "voteTotal": 65915796
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 9
+              },
+              "popularVote": {
+                "All Others": 22717,
+                "Obama": 795696,
+                "Romney": 1255925
+              },
+              "state": "AL"
             },
             {
-              "candidate": "Mitt Romney",
-              "parties": [
-                "Republican"
-              ],
-              "voteTotal": 60933500
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 3
+              },
+              "popularVote": {
+                "All Others": 13179,
+                "Obama": 122640,
+                "Romney": 164676
+              },
+              "state": "AK"
             },
             {
-              "candidate": "Gary Johnson",
-              "parties": [
-                "Libertarian",
-                "Independent"
-              ],
-              "voteTotal": 1275971
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 11
+              },
+              "popularVote": {
+                "All Others": 40368,
+                "Obama": 1025232,
+                "Romney": 1233654
+              },
+              "state": "AZ"
             },
             {
-              "candidate": "Jill Stein",
-              "parties": [
-                "Green",
-                "Pacific Green",
-                "Mountain",
-                "Independent"
-              ],
-              "voteTotal": 469628
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 6
+              },
+              "popularVote": {
+                "All Others": 27315,
+                "Obama": 394409,
+                "Romney": 647744
+              },
+              "state": "AR"
             },
             {
-              "candidate": "Write-In",
-              "parties": [
-                "Miscellaneous"
-              ],
-              "voteTotal": 136040
+              "electoralVote": {
+                "Obama": 55,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 344304,
+                "Obama": 7854285,
+                "Romney": 4839958
+              },
+              "state": "CA"
             },
             {
-              "candidate": "Virgil Goode",
-              "parties": [
-                "Constitution",
-                "Independent American",
-                "U.S. Taxpayers"
-              ],
-              "voteTotal": 122388
+              "electoralVote": {
+                "Obama": 9,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 61177,
+                "Obama": 1323102,
+                "Romney": 1185243
+              },
+              "state": "CO"
             },
             {
-              "candidate": "Roseann Barr",
-              "parties": [
-                "Peace and Freedom"
-              ],
-              "voteTotal": 67326
+              "electoralVote": {
+                "Obama": 7,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 18985,
+                "Obama": 905083,
+                "Romney": 634892
+              },
+              "state": "CT"
             },
             {
-              "candidate": "Ross C. \"Rocky\" Anderson",
-              "parties": [
-                "Justice",
-                "Progressive",
-                "Independent"
-              ],
-              "voteTotal": 43018
+              "electoralVote": {
+                "Obama": 3,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 5853,
+                "Obama": 242584,
+                "Romney": 165484
+              },
+              "state": "DE"
             },
             {
-              "candidate": "Tom Hoefling",
-              "parties": [
-                "American Independent",
-                "America's Party"
-              ],
-              "voteTotal": 40628
+              "electoralVote": {
+                "Obama": 3,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 5313,
+                "Obama": 267070,
+                "Romney": 21381
+              },
+              "state": "DC"
             },
             {
-              "candidate": "Randall Terry",
-              "parties": [
-                "Independent"
-              ],
-              "voteTotal": 13105
+              "electoralVote": {
+                "Obama": 29,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 72976,
+                "Obama": 4237756,
+                "Romney": 4163447
+              },
+              "state": "FL"
             },
             {
-              "candidate": "Richard Duncan",
-              "parties": [
-                "Independent"
-              ],
-              "voteTotal": 12557
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 16
+              },
+              "popularVote": {
+                "All Others": 47535,
+                "Obama": 1773827,
+                "Romney": 2078688
+              },
+              "state": "GA"
             },
             {
-              "candidate": "Peta Lindsay",
-              "parties": [
-                "Socialism and Liberation"
-              ],
-              "voteTotal": 7791
+              "electoralVote": {
+                "Obama": 4,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 7024,
+                "Obama": 306658,
+                "Romney": 121015
+              },
+              "state": "HI"
             },
             {
-              "candidate": "None of These Candidates",
-              "parties": [
-                "Nevada"
-              ],
-              "voteTotal": 5770
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 4
+              },
+              "popularVote": {
+                "All Others": 18576,
+                "Obama": 212787,
+                "Romney": 420911
+              },
+              "state": "ID"
             },
             {
-              "candidate": "Chuck Baldwin",
-              "parties": [
-                "Reform"
-              ],
-              "voteTotal": 5017
+              "electoralVote": {
+                "Obama": 20,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 87286,
+                "Obama": 3019512,
+                "Romney": 2135216
+              },
+              "state": "IL"
             },
             {
-              "candidate": "Will Christensen",
-              "parties": [
-                "Constitution"
-              ],
-              "voteTotal": 4453
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 11
+              },
+              "popularVote": {
+                "All Others": 51104,
+                "Obama": 1152887,
+                "Romney": 1420543
+              },
+              "state": "IN"
             },
             {
-              "candidate": "Stewart Alexander",
-              "parties": [
-                "Socialist"
-              ],
-              "voteTotal": 4405
+              "electoralVote": {
+                "Obama": 6,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 29019,
+                "Obama": 822544,
+                "Romney": 730617
+              },
+              "state": "IA"
             },
             {
-              "candidate": "James Harris",
-              "parties": [
-                "Socialist Workers"
-              ],
-              "voteTotal": 4117
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 6
+              },
+              "popularVote": {
+                "All Others": 26611,
+                "Obama": 440726,
+                "Romney": 692634
+              },
+              "state": "KS"
             },
             {
-              "candidate": "Thomas Robert Stevens",
-              "parties": [
-                "Objectivist"
-              ],
-              "voteTotal": 4091
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 8
+              },
+              "popularVote": {
+                "All Others": 30652,
+                "Obama": 679370,
+                "Romney": 1087190
+              },
+              "state": "KY"
             },
             {
-              "candidate": "Jim Carlson",
-              "parties": [
-                "Grassroots"
-              ],
-              "voteTotal": 3149
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 8
+              },
+              "popularVote": {
+                "All Others": 32662,
+                "Obama": 809141,
+                "Romney": 1152262
+              },
+              "state": "LA"
             },
             {
-              "candidate": "Jill Reed",
-              "parties": [
-                "Unaffiliated"
-              ],
-              "voteTotal": 2875
+              "electoralVote": {
+                "Obama": 4,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 19598,
+                "Obama": 401306,
+                "Romney": 292276
+              },
+              "state": "ME"
             },
             {
-              "candidate": "Merlin Miller",
-              "parties": [
-                "American Third Position",
-                "Independent"
-              ],
-              "voteTotal": 2701
+              "electoralVote": {
+                "Obama": 10,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 57614,
+                "Obama": 1677844,
+                "Romney": 971869
+              },
+              "state": "MD"
             },
             {
-              "candidate": "Sheila \"Samm\" Tittle",
-              "parties": [
-                "We the People)"
-              ],
-              "voteTotal": 2572
+              "electoralVote": {
+                "Obama": 11,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 58163,
+                "Obama": 1921290,
+                "Romney": 1188314
+              },
+              "state": "MA"
             },
             {
-              "candidate": "Gloria La Riva",
-              "parties": [
-                "Socialism and Liberation",
-                "Independent"
-              ],
-              "voteTotal": 1608
+              "electoralVote": {
+                "Obama": 16,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 51136,
+                "Obama": 2564569,
+                "Romney": 2115256
+              },
+              "state": "MI"
             },
             {
-              "candidate": "Jerry White",
-              "parties": [
-                "Socialist Equality",
-                "Independent"
-              ],
-              "voteTotal": 1279
+              "electoralVote": {
+                "Obama": 10,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 70169,
+                "Obama": 1546167,
+                "Romney": 1320225
+              },
+              "state": "MN"
             },
             {
-              "candidate": "Dean Morstad",
-              "parties": [
-                "Constitutional Government"
-              ],
-              "voteTotal": 1094
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 6
+              },
+              "popularVote": {
+                "All Others": 11889,
+                "Obama": 562949,
+                "Romney": 710746
+              },
+              "state": "MS"
             },
             {
-              "candidate": "Jerry Litzel",
-              "parties": [
-                "Independent"
-              ],
-              "voteTotal": 1027
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 10
+              },
+              "popularVote": {
+                "All Others": 51087,
+                "Obama": 1223796,
+                "Romney": 1482440
+              },
+              "state": "MO"
             },
             {
-              "candidate": "Barbara Dale Washer",
-              "parties": [
-                "Reform"
-              ],
-              "voteTotal": 1016
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 3
+              },
+              "popularVote": {
+                "All Others": 14281,
+                "Obama": 201839,
+                "Romney": 267928
+              },
+              "state": "MT"
             },
             {
-              "candidate": "Jeff Boss",
-              "parties": [
-                "NSA Did 911"
-              ],
-              "voteTotal": 1007
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 5
+              },
+              "popularVote": {
+                "All Others": 17234,
+                "Obama": 302081,
+                "Romney": 475064
+              },
+              "state": "NE"
             },
             {
-              "candidate": "Andre Barnett",
-              "parties": [
-                "Reform"
-              ],
-              "voteTotal": 956
+              "electoralVote": {
+                "Obama": 6,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 19978,
+                "Obama": 531373,
+                "Romney": 463567
+              },
+              "state": "NV"
             },
             {
-              "candidate": "Jack Fellure",
-              "parties": [
-                "Prohibition"
-              ],
-              "voteTotal": 518
+              "electoralVote": {
+                "Obama": 4,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 11493,
+                "Obama": 369561,
+                "Romney": 329918
+              },
+              "state": "NH"
+            },
+            {
+              "electoralVote": {
+                "Obama": 14,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 37623,
+                "Obama": 2125101,
+                "Romney": 1477568
+              },
+              "state": "NJ"
+            },
+            {
+              "electoralVote": {
+                "Obama": 5,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 32635,
+                "Obama": 415335,
+                "Romney": 335788
+              },
+              "state": "NM"
+            },
+            {
+              "electoralVote": {
+                "Obama": 29,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 104987,
+                "Obama": 4485741,
+                "Romney": 2490431
+              },
+              "state": "NY"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 15
+              },
+              "popularVote": {
+                "All Others": 56586,
+                "Obama": 2178391,
+                "Romney": 2270395
+              },
+              "state": "NC"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 3
+              },
+              "popularVote": {
+                "All Others": 9637,
+                "Obama": 124827,
+                "Romney": 188163
+              },
+              "state": "ND"
+            },
+            {
+              "electoralVote": {
+                "Obama": 18,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 91697,
+                "Obama": 2827710,
+                "Romney": 2661433
+              },
+              "state": "OH"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 7
+              },
+              "popularVote": {
+                "All Others": 0,
+                "Obama": 443547,
+                "Romney": 891325
+              },
+              "state": "OK"
+            },
+            {
+              "electoralVote": {
+                "Obama": 7,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 64607,
+                "Obama": 970488,
+                "Romney": 754175
+              },
+              "state": "OR"
+            },
+            {
+              "electoralVote": {
+                "Obama": 20,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 82962,
+                "Obama": 2990274,
+                "Romney": 2680434
+              },
+              "state": "PA"
+            },
+            {
+              "electoralVote": {
+                "Obama": 4,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 9168,
+                "Obama": 279677,
+                "Romney": 157204
+              },
+              "state": "RI"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 9
+              },
+              "popularVote": {
+                "All Others": 26532,
+                "Obama": 865941,
+                "Romney": 1071645
+              },
+              "state": "SC"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 3
+              },
+              "popularVote": {
+                "All Others": 8166,
+                "Obama": 145039,
+                "Romney": 210610
+              },
+              "state": "SD"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 11
+              },
+              "popularVote": {
+                "All Others": 35538,
+                "Obama": 960709,
+                "Romney": 1462330
+              },
+              "state": "TN"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 38
+              },
+              "popularVote": {
+                "All Others": 115884,
+                "Obama": 3308124,
+                "Romney": 4569843
+              },
+              "state": "TX"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 6
+              },
+              "popularVote": {
+                "All Others": 25027,
+                "Obama": 251813,
+                "Romney": 740600
+              },
+              "state": "UT"
+            },
+            {
+              "electoralVote": {
+                "Obama": 3,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 7353,
+                "Obama": 199239,
+                "Romney": 92698
+              },
+              "state": "VT"
+            },
+            {
+              "electoralVote": {
+                "Obama": 13,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 60147,
+                "Obama": 1971820,
+                "Romney": 1822522
+              },
+              "state": "VA"
+            },
+            {
+              "electoralVote": {
+                "Obama": 12,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 79450,
+                "Obama": 1755396,
+                "Romney": 1290670
+              },
+              "state": "WA"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 5
+              },
+              "popularVote": {
+                "All Others": 14514,
+                "Obama": 238269,
+                "Romney": 417655
+              },
+              "state": "WV"
+            },
+            {
+              "electoralVote": {
+                "Obama": 10,
+                "Romney": 0
+              },
+              "popularVote": {
+                "All Others": 39483,
+                "Obama": 1620985,
+                "Romney": 1407966
+              },
+              "state": "WI"
+            },
+            {
+              "electoralVote": {
+                "Obama": 0,
+                "Romney": 3
+              },
+              "popularVote": {
+                "All Others": 8813,
+                "Obama": 69286,
+                "Romney": 170962
+              },
+              "state": "WY"
             }
           ],
-          "url": "/elections/2012/presidential/data/popularvote"
+          "url": "/elections/2012/presidential/vote/state"
         }
