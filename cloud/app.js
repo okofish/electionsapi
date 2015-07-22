@@ -24,8 +24,8 @@ app.use(express.bodyParser()); // Middleware for reading request body
 require('cloud/elections/elections.js')(app)
 require('cloud/elections/election/election.js')(app)
 
-require('cloud/elections/election/votes/candidate.js')(app)
-require('cloud/elections/election/votes/state.js')(app)
+require('cloud/elections/election/votes/presidential/candidate.js')(app)
+require('cloud/elections/election/votes/presidential/state.js')(app)
 
 
 

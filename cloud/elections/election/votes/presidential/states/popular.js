@@ -5,17 +5,17 @@ module.exports = function(req,res) {
   });
   Parse.Analytics.track('query', {
     year: req.params.year,
-    election_type: req.params.election,
+    election_type: "presidential",
     data_type: "state",
-    state_data_type: "electoral"
+    state_data_type: "popular"
   });
   var Election = Parse.Object.extend("Election");
   var query = new Parse.Query(Election);
-  query.equalTo("type", req.params.election);
+  query.equalTo("type", "presidential");
   query.equalTo("year", req.params.year);
   query.find({
     success: function(results) {
-      if (results.length === 0) {
+      if (results.length === 0 || !results[0].get("stateVote")) {
         res.type('json');
         res.send({
           "error": {
@@ -29,7 +29,7 @@ module.exports = function(req,res) {
           "year": results[0].get("year"),
           "type": results[0].get("type"),
           "states": G._.map(results[0].get("stateVote"), function(state) {
-            return G._.omit(state, 'popularVote')
+            return G._.omit(state, 'electoralVote')
           }),
           "url": req.path
         })

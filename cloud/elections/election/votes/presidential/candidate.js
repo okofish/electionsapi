@@ -1,17 +1,17 @@
 G = require('cloud/global.js')
 module.exports = function(app) {
-  app.get('/elections/:year/:election/vote/candidate', function(req, res) {
+  app.get('/elections/:year/presidential/vote/candidate', function(req, res) {
     Parse.Analytics.track('req', {
       path: req.path
     });
     Parse.Analytics.track('query', {
       year: req.params.year,
-      type: req.params.election,
+      election_type: "presidential",
       datatype: "candidate"
     });
     var Election = Parse.Object.extend("Election");
     var query = new Parse.Query(Election);
-    query.equalTo("type", req.params.election);
+    query.equalTo("type", "presidential");
     query.equalTo("year", req.params.year);
     query.find({
       success: function(results) {
