@@ -35,7 +35,7 @@ app.get('/', function(req, res) {
   });
   res.type('json');
   res.send({
-    "electionsg._url": "/elections",
+    "elections_url": "/elections",
     "docs": "http://docs.electionsapi.apiary.io/"
   })
 })
